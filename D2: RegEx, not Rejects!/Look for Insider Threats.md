@@ -35,7 +35,7 @@ Otherwise, you'll see errors like:
 	• Python 3
 
 ### Files
-Found under D2: RegEx, not Rejects! Folder: snort.py
+snory.py is found in the directory: D2. RegEx, not Rejects!
 
 From <https://target.ctfd.io/challenges#D2.%20Look%20for%20Insider%20Threats-29> 
 
