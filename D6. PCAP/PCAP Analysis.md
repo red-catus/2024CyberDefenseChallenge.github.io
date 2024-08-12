@@ -16,7 +16,7 @@ Password for Zip: infected
 	• Wireshark crash course:  https://www.youtube.com/watch?v=vUdOxcRJgME
 
  ### File
- pcap.zip found in the D6. PCAP folder
+ pcap.zip found in the D6. PCAP directory
 
 From <https://target.ctfd.io/challenges#D6.%20PCAP%20Analysis-28> 
 
