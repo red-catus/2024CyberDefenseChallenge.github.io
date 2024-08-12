@@ -32,12 +32,14 @@ The objective is to find the MOST critical vulnerability. The text editor and se
 
 
 
-Going back to the text editor, I observed that each vulnerability is written in detail consisting of 6 lines: vulnerability name, synopsis, description, solution, cve, and severity name. Using this information, I added a parameter in my grep command to  extract the information I needed. (You may use the grep --help command to show options or google helpful Linux cheat sheets!) By adding the -B 5 to my grep command, the command prints both the matching line and the 5 lines before that match. Results are shown below.
+Going back to the text editor, I observed that each vulnerability is written in detail consisting of 6 lines: vulnerability name, synopsis, description, solution, cve, and severity name. Using this information, I added a parameter in my grep command to  extract the information I needed. (You may use the grep --help command to show options or google helpful Linux cheat sheets!) 
+
+By adding the **-B 5** to my grep command, the command prints both the matching line and the 5 lines before that match. Results are shown below.
 
 ![2nd](https://github.com/user-attachments/assets/dc88c3a4-59b5-4ac9-9d51-af8ef3a28e44)
 
 
-Looking at the results, I observed that the critical vulnerabilities included unsupported or vulnerable older versions of Chrome, Python, and Edge. These should be remediated, but the most alarming vulnerability listed is CVE-2024-29994 or the Windows 10 Version 21H2 Security Update. 
+Looking at the results, I observed that the critical vulnerabilities included unsupported or vulnerable older versions of Chrome, Python, Windows, and Edge. These should be remediated, but the most alarming vulnerability listed is CVE-2024-29994 or the Windows 10 Version 21H2 Security Update. 
 
 ![3rd](https://github.com/user-attachments/assets/98e9a4b9-2fbe-4863-be1e-35a49bf5c111)
 
