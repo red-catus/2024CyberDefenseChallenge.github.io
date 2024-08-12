@@ -25,7 +25,7 @@ The vulnerability report can be viewed using a text editor and  includes reports
 
 
 
-The objective is to find the MOST critical vulnerability. The text editor and search option can be used, but using the command-line would make it easier to extract the relevant data. The grep command can be used to find the keyword "Critical" in the report. Grep is a Linux command-line utility used to find text in a file. It only prints matches (unless direct it not to), so it helps minimize the noise when working with reports like this. Through this command, I was able to find that there are at least 5 vulnerabilities labeled critical in severity. 
+The objective is to find the MOST critical vulnerability. The text editor and search option can be used, but using the command-line would make it easier to extract the relevant data. The grep command can be used to find the keyword "Critical" in the report. Grep is a Linux command-line utility used to find text in a file. It only prints matches (unless directed not to), so it helps minimize the noise when working with reports like this. Through this command, I was able to find that there are at least 5 vulnerabilities labeled critical in severity. 
 
 
 ![1st](https://github.com/user-attachments/assets/ffe3dadd-d915-4159-beef-7eb5c4ba8421)
