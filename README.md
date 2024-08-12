@@ -9,7 +9,9 @@ In July 2024, I participated in the 2024 Cyber Defense Challenge with Women in C
 
 Tier 1 included offense and defense challenges. It was quite fun to complete challenges from both sides, but I admit I liked the defense challenges more. I am a career changer and have participated in 1 other CTF competition before this, so I set realistic goals for this competition.  I repeatedly told myself that learning is the main goal, so I was going to let my overthinking mind run free and have fun. However, the competitive side took over and pushed me to remain persistent (without brute forcing answers) and led to the completion of the Tier 1 challenges with over 2 weeks to spare! The Tier 1 challenge has concluded and I'm currently #25 out of 793 participants, so I'm happy and eagerly awaiting the official invitation to participate in the Tier 2 challenges. 
 
-Each challenge is label with either D or O to represent defense and offense, respectively and is found in separate folders. I have also added the main tool or concept associated with each challenge. The format begins with the challenge scenario and background, objectives, and the solution. If there are files needed to complete the challenge, I uploaded those in the respective challenge's folder. 
+### Format of the writeups
+
+Each challenge is label with either D or O to represent defense and offense, respectively and is found in separate directories. I have also added the main tool or concept associated with each challenge in the directory name. The format begins with the challenge scenario and background, objectives, and the solution. If there are files needed to complete the challenge, I uploaded those in the respective challenge's directory. 
 
 
 
