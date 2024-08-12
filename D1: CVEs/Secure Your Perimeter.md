@@ -13,7 +13,7 @@ Identify the most critical vulnerability that should be remediated first
 **Flag Format CVE-year-number**
 
 ## Files
-Found under D1: CVEs folder
+Found under D1: CVEs directory
 
 
 
