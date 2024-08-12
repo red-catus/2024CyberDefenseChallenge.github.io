@@ -44,7 +44,7 @@ From <https://target.ctfd.io/challenges#D2.%20Look%20for%20Insider%20Threats-29>
 
 The first time I dealt with RegEx in a bioinformatics course, I thought it was a nightmare and incredibly complex. However, the use of RegEx does save time when doing searches or processing texts. 
 
-Looking at the encryption method, we can do a quick glance and pick out important details. I'm not Python expert, but this was my understanding of the first 5 lines: 
+Looking at the encryption method, we can do a quick glance and pick out important details. I'm not a Python expert, but this was my understanding of the first 5 lines: 
 
 	• Vapid is function being defined with key value being LUCKYLION and the function returns as bytes object.
 	• If key is a string, ASCII encoding is used to convert it to bytes
@@ -87,7 +87,6 @@ So for L, it would be [L-U]
 
 ## Lesson Learned:
 
-For these challenges, I realized that I can spend a couple of hours trying to solve a problem… After I solve it, I figure out EASIER, time saving ways to get my answer. My brain does like to run marathons using flipflops sometimes. 
 
 RegEx isn't so bad… As long as you use the regex testing tools and it doesn’t spit out "ILL-FITTING" results. 
 
