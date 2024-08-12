@@ -8,7 +8,7 @@ You and the rest of The Lucky Lion's IR team are deep in your investigation, dig
 	• yara
 	• curl
 ### File
-strelka.json is uploaded in the D8. Yara Analysis folder
+strelka.json is uploaded in the D8. Yara Analysis directory
 ### Additional Resources
 	• YARA Documentation
 	• YARA
