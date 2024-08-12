@@ -46,10 +46,12 @@ Looking at the results, I observed that the critical vulnerabilities included un
 
 Before submitting the answer, I wanted to get more information about the vulnerability. This can be done using different webpages to lookup the CVE. I used cve.org to look up the CVE-2024-29994. The search results detailed that this vulnerability may lead to the escalation of privilege and full access to SYSTEM privileges. To put it in simpler terms, this is similar to leaving your laptop or phone unlocked and unattended in a public space.  
 
-![4th](https://github.com/user-attachments/assets/2ba4f4bc-5f28-43b8-bdaf-869a890b7c19)
+
+![4th](https://github.com/user-attachments/assets/0a2f9766-574b-4f67-90af-4dad74d0b2b7)
 
 
-The answer was CVE-2024-29994.
+**The answer was CVE-2024-29994.**
+
 
 
 
