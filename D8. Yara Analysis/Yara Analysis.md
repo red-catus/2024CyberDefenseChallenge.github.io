@@ -69,13 +69,12 @@ I looked at the PCAP file from challenge D6 once again and found that the conten
 
 ![9th](https://github.com/user-attachments/assets/5155224a-f9c8-496f-b8e3-622e119e9619)
 
-Using this, I ran the rule and was also able to obtain the flag. The strings were HEX dumps from the packet bytes from the PCAP analysis of the downloaded executable. 
+Using this, I ran the rule and was also able to obtain the flag. The strings were HEX dumps of the packet bytes from the PCAP analysis of the downloaded executable. 
 
 ![Screenshot_2024-08-12_17-22-20](https://github.com/user-attachments/assets/1c175c8c-e510-4f03-a229-04e913c63a09)
 
-I don't think the principal security engineer who wrote this intended it solved this way, but I thought it was neat to tie these 2 challenges together. 
 
-
+I don't think the principal security engineer who wrote this challenge intended it to be solved this way. The scientist in me was trained to think of possible explainations and solutions and testing each one out. I'm hoping that's a trait worth carrying over in my career transition. 
 
 ### References:
 
