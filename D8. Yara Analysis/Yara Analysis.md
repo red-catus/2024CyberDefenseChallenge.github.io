@@ -54,7 +54,7 @@ This challenge not only gave me firsthand experience in writing Yara rules, but 
 
 
 
-### NOTE:
+## NOTE:
 
 After solving this, there was something bugging me about this target. During one of my deep dives into solving this problem, I went back to challenge D6. Since then I have been trying to tie this target to that downloaded exe in D6. I've used HEX dumps from the packet bytes in the PCAP file and they were true... But is there something else that might tie these 2 challenges together? 
 
@@ -74,7 +74,7 @@ Using this, I ran the rule and was also able to obtain the flag. The strings wer
 ![Screenshot_2024-08-12_17-22-20](https://github.com/user-attachments/assets/1c175c8c-e510-4f03-a229-04e913c63a09)
 
 
-I don't think the principal security engineer who wrote this challenge intended it to be solved this way. The scientist in me was trained to think of possible explainations and solutions and testing each one out. I'm hoping that's a trait worth carrying over in my career transition. 
+I don't think the principal security engineer who wrote this challenge intended it to be solved this way. The scientist in me was trained to think of possible explainations and solutions and testing each one out. I'm hoping that's a trait worth carrying over in my career transition, because I don't think that's ever going to change for me. 
 
 ### References:
 
