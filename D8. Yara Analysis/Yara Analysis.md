@@ -48,7 +48,7 @@ Considering that the overlay is not part of the pe metadata, I could not figure 
 ![5th](https://github.com/user-attachments/assets/663da848-ad9d-4b88-86dd-538af3773bea)
 
 
-I was not able to get this answer right away, but I was very ecstatic to be the **first** to complete this challenge! I admit that I did try multiple characteristics under pe, but most gave me either 2/100 or 3/100. In creating Yara rules or any kind of threat detection rules, it is important to learn about the type of file format you are working with and to understand the reported signatures threat actors use. In this case, quality matters. 
+I was not able to get this answer right away, but I was very ecstatic to be the **first** to complete this challenge! I tried multiple characteristics under pe, but most gave me either 2/100 or 3/100. In creating Yara rules or any kind of threat detection rules, it is important to learn about the type of file format you are working with and to understand the reported signatures threat actors use. In this case, quality matters. 
 
 This challenge not only gave me firsthand experience in writing Yara rules, but also taught me the importance of fine tuning those rules to achieve better results. 
 
@@ -56,14 +56,14 @@ This challenge not only gave me firsthand experience in writing Yara rules, but 
 
 ### NOTE:
 
-After solving this, I admit that there was something bugging me about this target. During one of my overthinking and deep dives into solving this problem, I went back to challenge D6. Since then I have been trying to tie this target to that downloaded exe in D6. I've used HEX dumps from the packet bytes in the PCAP file and they were true... But there should be something else that might tie this 2 challenges together? 
+After solving this, there was something bugging me about this target. During one of my deep dives into solving this problem, I went back to challenge D6. Since then I have been trying to tie this target to that downloaded exe in D6. I've used HEX dumps from the packet bytes in the PCAP file and they were true... But is there something else that might tie these 2 challenges together? 
 
-Thus, the conspiracy theories began flooding my mind. Was my target the file from D6?! While trying different combinations, I found that the filesize written in the strelka file 5328201 was producing FALSE results. It's understandable considering the strelka file was that of a file SIMILAR to the target, not THE target. However, when I use filesize < 5328201, I get a TRUE result. This along with the AnyDesk strings being found in our target made me think that the target file might have been something I've come across before.
+Was my target the file from D6?! While trying different combinations, I found that the filesize written in the strelka file 5328201 was producing FALSE results. It's understandable considering the strelka file was that of a file SIMILAR to the target, not THE target. However, when I use filesize < 5328201, I get a TRUE result. 
  
 
 ![7th](https://github.com/user-attachments/assets/bc02c704-bebd-49b5-9140-a59c1648fe16)
 
-In Challenge D6, I figured out that the suspicious download was an executable: Anydesk.exe! Keeping this in mind, I looked at the PCAP file once again and found that the content length was VERY close to what's been reported in strelka. It was **5328200**! 
+I looked at the PCAP file from challenge D6 once again and found that the content length was VERY close to what's been reported in strelka. It was **5328200**! 
 
 ![4th](https://github.com/user-attachments/assets/409248dc-cb64-4e70-a2a0-8acf42336532)
 
