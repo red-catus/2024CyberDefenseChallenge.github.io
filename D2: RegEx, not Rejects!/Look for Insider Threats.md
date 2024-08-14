@@ -88,7 +88,7 @@ So for L, it would be [L-U]
 ## Lesson Learned:
 
 
-RegEx isn't so bad… As long as you use the regex testing tools and it doesn’t spit out "ILL-FITTING" results. 
+RegEx isn't so bad… As long as you use the regex testing tools and it doesn’t spit out "ILL-FITTING" results. On a more serious note, online resources like www.regex101.com makes it more bearable to write RegEx AND learn about how it works. 
 
 
 
